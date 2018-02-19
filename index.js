@@ -22,7 +22,7 @@ function currentLine(katzDeliLine) {
     var newArray = []
     for (var i = 0; i < katzDeliLine.length; i++) {
     var customer = katzDeliLine[i]
-     newArray.push(`${i+1}. ${customer}`)
+     newArray.push(`${i++}. ${customer}`)
     }
     return `The line is currently: ${newArray.join(', ')}`
   }
