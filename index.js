@@ -21,8 +21,7 @@ function currentLine(katzDeliLine) {
   } else {
     for (var i = 0; i < katzDeliLine.length; i++) {
     var customer = katzDeliLine[i]
-    return `T${i}. ${customer}`
+     `${i}. ${customer}`
     }
-    return `The line is currently:${katzDeliLine}`
   }
 }
