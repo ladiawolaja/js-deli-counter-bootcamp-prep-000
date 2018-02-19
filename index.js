@@ -24,6 +24,6 @@ function currentLine(katzDeliLine) {
     var customer = katzDeliLine[i]
      newArray.push(`${i+1}. ${customer}`)
     }
-    return `The line is currently: 
+    return `The line is currently: newArray.join(${newArray})
   }
 }
